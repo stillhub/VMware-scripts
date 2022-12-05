@@ -29,7 +29,7 @@ $SendEmail = "YES"
 $RootFolder = "."
 
 ## ESX Host settings
-$ESXHost = "linvmp71"
+$ESXHost = "ESX_HOSTNAME"
 $HostUsername = "root"
 $Password_Location = “$RootFolder\ESX_cred.txt”
 $DataStore_List = Get-Content "$RootFolder\Datastores.txt"
